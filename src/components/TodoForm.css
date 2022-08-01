@@ -1,0 +1,37 @@
+.form {
+  background-color: #575757;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 425px) {
+  .form {
+    width: 50%;
+    overflow: auto;
+  }
+}
+
+.add-task {
+  background-color: rgb(0, 174, 255);
+  color: white;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+input, label {
+  margin: 5px;
+  height: 1.25rem;
+}
+label {
+  color: white;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.clear {
+  margin: 5px;
+
+}

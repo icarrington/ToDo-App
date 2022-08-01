@@ -1,0 +1,40 @@
+
+.clear {
+  width: 50%;
+  background-color: #FFFFFF;
+  color: red;
+  border-radius: 5px;
+  border: solid red 1px;
+}
+
+.board {
+  border: solid black 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #575757;
+  width: 85%;
+  margin: 20px;
+}
+
+.list {
+  list-style-type: none;
+  width: 85%;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 10px;
+  background-color: white;
+}
+
+span {
+  padding: 5px;
+  margin-left: 5px;
+}
