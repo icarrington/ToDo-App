@@ -32,7 +32,7 @@ export default function ToDoForm(props) {
       <button 
       type='submit' 
       onClick={() => props.addTodo(formData)}
-      className='add-task'
+      className='add-task-btn'
       >
         Add Task
       </button>

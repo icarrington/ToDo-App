@@ -35,7 +35,7 @@ export default function List(props) {
   return (
     <div className='board'>
       <button
-      className='clear'
+      className='clear-btn'
       onClick={() => {
         props.clearCompleted(listData);
         setListData({});

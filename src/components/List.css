@@ -1,10 +1,13 @@
 
-.clear {
+.clear-btn {
   width: 50%;
-  background-color: #FFFFFF;
-  color: red;
+  background-color: #dc3545;
+  color: #fff;;
   border-radius: 5px;
-  border: solid red 1px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
 }
 
 .board {
