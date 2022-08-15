@@ -5,6 +5,7 @@ export default function ToDoForm(props) {
 
   const [formData, setFormData] = useState({});
 
+  //form data handled by state for a controlled component
   function handleChange(event) {
     const target= event.target;
     setFormData(prevFormData => {
